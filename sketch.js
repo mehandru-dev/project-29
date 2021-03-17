@@ -68,10 +68,10 @@ function setup() {
  function draw() {
    background(135, 119, 255);
  
-   textSize(25);
+   /*textSize(25);
    fill("black");
    stroke("black");
-   text("Press up arrow key to get another shot",500 ,50);
+   text("Press up arrow key to get another shot",500 ,50);*/
 
    textSize(20);
    fill("black");
@@ -162,7 +162,7 @@ function mouseReleased()
     
 }
 
-function keyPressed() {
+/*function keyPressed() {
 	if (keyCode === UP_ARROW) {
 
   Matter.Body.setPosition(stoneObj.body, {x:235, y:420}) ;
@@ -170,5 +170,5 @@ function keyPressed() {
 	launcherObject.attach(stoneObj.body);
 	}
  
-  }
+  }*/
 
